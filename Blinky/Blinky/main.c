@@ -11,7 +11,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-//function defenition 
+//function definition 
 void blink (void);
 
 void ReadInput (void);
@@ -56,9 +56,8 @@ void blink(void)
 	
 }
 /*
-void ReadInput(void)
-{
+//void ReadInput(void)
+//{
 
-}
-
+//}
 */
