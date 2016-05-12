@@ -14,7 +14,6 @@
 //function definition 
 void blink (void);
 
-void ReadInput (void);
 
 
 // Pin 13 on arduino Board 
@@ -37,7 +36,7 @@ void ReadInput (void);
 int main(void)
 {
     set_output(DDRD,LED);
-	//set_input(DDRD,BUTTON);
+	
     while (1) 
     {
 		blink ();
@@ -55,9 +54,4 @@ void blink(void)
 	_delay_ms(200);
 	
 }
-/*
-//void ReadInput(void)
-//{
 
-//}
-*/
